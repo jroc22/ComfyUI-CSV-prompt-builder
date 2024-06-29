@@ -4,6 +4,8 @@ This is a simple node for creating prompts using a .csv file. I created this nod
 
 Please keep in mind I am not a programmer and this is my first node (and first coding project). There may be some poorly written code or functionality that can be improved. If you have any recommendations for changes or improvements to the code let me know, I'm eager to learn and theres some things I just couldn't figure out or get to work.
 
+![Example Image](https://github.com/jroc22/ComfyUI-CSV-prompt-builder/blob/main/examples/example_image.png)
+
 ## Installation
 
 Just clone the repo as you would any other node, or download the zip and place the "ComfyUI-CSV-prompt-builder" folder in your custom_nodes directory.
