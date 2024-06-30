@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-csv-prompt-builder"
+description = "This is a simple node for creating prompts using a .csv file. I created this node as an easy way to output different prompts each time a workflow is run."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/jroc22/ComfyUI-CSV-prompt-builder"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "jroc22"
+DisplayName = "ComfyUI-CSV-prompt-builder"
+Icon = ""
