@@ -42,7 +42,7 @@ The BuildPromptFromCSV node reads the contents of the selected .csv file and dis
 
 After changing the CSV file in the Node drop-down field, you will need to run the node once and then Restart ComfyUI to see the changes. You should get a notification after changing the CSV file and running it once, telling you to restart ComfyUI. This is the only way I could make it possible to switch CSV files directly on the node. It's not amazing, but it works.
 
-Be aware that if you change the drop-down (select a new CSV file), run the node, and then change the drop-down to a different CSV file before restarting ComfyUI, after restart the node will initialize with the first selected CSV file config (the one you ran the node with), but the drop-down will show the second CSV file. If this happens, you will need to switch the drop-down to show the correct CSV file before running the node, or it will ask you to restart again and it will switch the .csv again to the one in the drop-down.
+Be aware that if you change the drop-down (select a new CSV file), run the node, and then change the drop-down to a different CSV file before restarting ComfyUI, after restart the node will initialize with the first selected CSV file config (the one you ran the node with), but the drop-down will show the second CSV file. If this happens, you will need to switch the drop-down to show the correct CSV file before running the node, or it will ask you to restart again and it will switch the CSV file again to the one in the drop-down.
 
 Using the correct method of switching CSV files should give you no trouble -- again, the process is:
 
