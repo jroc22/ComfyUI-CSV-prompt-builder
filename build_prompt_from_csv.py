@@ -84,7 +84,6 @@ class BuildPromptFromCSV:
         csv_files = [f for f in os.listdir(csv_directory) if f.endswith('.csv')]
         csv_filename = CSVConfig.get_csv_filename()
         file_path = os.path.join(csv_directory, csv_filename)
-        print(f"Looking for CSV file at: {file_path}")
 
         if not os.path.isfile(file_path):
             raise FileNotFoundError(f"File '{file_path}' cannot be found. Please make sure the CSV file exists in the 'prompt_sets' folder and restart ComfyUI.")
