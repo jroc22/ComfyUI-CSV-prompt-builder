@@ -9,6 +9,6 @@ Repository = "https://github.com/jroc22/ComfyUI-CSV-prompt-builder"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "jroc22"
 DisplayName = "ComfyUI-CSV-prompt-builder"
 Icon = ""
