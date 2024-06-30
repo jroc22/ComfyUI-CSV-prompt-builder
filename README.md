@@ -54,7 +54,7 @@ Using the correct method of switching CSV files should give you no trouble -- ag
 
 All CSV files should go in the "promt_sets" folder, and ensure there is at least one CSV file in there at all times. There is no hard limit set on the number of CSV files you can have in there, but I imagine after ~100 performance would be impacted. After adding a CSV file, simply refreshing will update the drop-down.
 
-All CSV files you add to the folder must include column headers in the first row -- the column headers are used to name the fields on the node, so keep these relatively short -- and also must include at least one value in each column that has a header. All the values in the subsequent rows of that column will be used as output. It's a basic set up, but you can look at either of the provided example CSV files for a simple outline.
+All CSV files you add to the folder must include column headers in the first row -- the column headers are used to name the fields on the node, so keep these relatively short -- and must also include at least one value beneath each header. It's a basic set up, but you can look at either of the provided example CSV files for a simple outline.
 
 There is no hard limit set on the number of columns or rows your CSV file can have. I've only really tested up to 30 columns with 50-100 rows each. A significant number of columns and rows may lead to performance issues, so be warned. At 30 columns I had no problems other than the Node was quite tall visually.
 
