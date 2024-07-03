@@ -58,7 +58,7 @@ There is no hard limit set on the number of columns or rows your CSV file can ha
 
 ### Multiple Node Instances
 
-Due to how the CSV file switching is set up, this node does not currently support multiple instances with different CSV file sources. You may have multiple instances that use the same CSV file. If you want to use multiple instances of the Node, I recommend turning the "csv_file" field into an input on each instance, and connecting the same Combo node to each. This way, when you change the CSV file it will correctly update for each instance (if you don't do this, after the restart you will need to swtich the CSV file drop-down to the correct CSV file on each other instance of the node, or it will fail).
+You can use multiple instances of this node, but due to how the CSV file switching is set up this node does not currently support multiple instances with different CSV file sources. If you want to use multiple instances of the Node, I recommend turning the "csv_file" field into an input on each instance, and connecting the same Combo node to each. This way, when you change the CSV file it will correctly update for each instance. If you don't do this, after the restart you will need make sure each CSV file drop-down is set to the correct CSV file on each other instance of the node.
 
 If anyone knows how to allow multiple instances with difference CSV sources and wants to share, please do!
 
